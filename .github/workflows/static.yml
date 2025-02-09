@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Studio Dollywood</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Witamy na oficjalnej stronie Studia Dollywood!</h1>
+    <p>Zapraszamy do odkrycia najwybitniejszych cudów filmowych naszego studia. (Dostęp tylko dla osób, co zapłaciły).</p>
+</header>
+
+<nav>
+    <a href="#film1">Zemsta Menela 3</a>
+    <a href="#film2">Zemsta Menela 2</a>
+    <a href="#film3">Zemsta Menela</a>
+</nav>
+
+<section id="film1">
+    <h2>Zemsta Menela 3: Ostatni Taniec</h2>
+    <p>Przeżyj ostatnią część epickiej sagi "Zemsta Menela"! Kliknij poniżej, aby obejrzeć film.</p>
+    <a href="https://youtu.be/RQoqUVuoVrE" target="_blank">Zobacz film</a>
+</section>
+
+<section id="film2">
+    <h2>Zemsta Menela 2: Napad na Bank</h2>
+    <p>Kontynuacja pełna akcji i nieoczekiwanych zwrotów! Kliknij poniżej, aby obejrzeć film.</p>
+    <a href="https://youtu.be/EkTpgzVibEY" target="_blank">Zobacz film</a>
+</section>
+
+<section id="film3">
+    <h2>Zemsta Menela</h2>
+    <p>Pierwsza część kultowej serii! Odkryj, jak wszystko się zaczęło. Kliknij poniżej, aby obejrzeć film.</p>
+    <a href="https://youtu.be/DeB3aH7-TD8" target="_blank">Zobacz film</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Studio Dollywood. Wszystkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
